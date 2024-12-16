@@ -1,0 +1,5 @@
+path: E:\Deep Learning & Generative AI\Projects\Object Detection Using Yolo-v8\Yolo-V8\data
+train: images\train 
+val: images\val
+nc: 1
+names: ["Butterfly"]
