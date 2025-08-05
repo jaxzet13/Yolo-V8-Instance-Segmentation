@@ -4,7 +4,7 @@ import numpy as np  # Needed for mask conversion
 
 # Load your trained model (use best.pt or last.pt)
 model_path = './runs/segment/train/weights/best.pt'  # or 'last.pt'
-model = YOLO(model_path)
+model = YOLO(best.pt)
 
 # Load your test image
 image_path = './data/images/val/748.jpg'
