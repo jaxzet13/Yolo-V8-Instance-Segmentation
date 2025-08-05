@@ -8,7 +8,7 @@ image_path = './data/images/val/748.jpg'
 img = cv2.imread(image_path)
 H, W, _ = img.shape
 
-model = YOLO(model_path)
+model = YOLO(best.pt)
 
 results = model(img)
 
