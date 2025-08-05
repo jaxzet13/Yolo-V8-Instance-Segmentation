@@ -1,2 +1,3 @@
 # replicate.yaml
-predict: predict.py
+weights:
+  - path: Yolo-V8-Instance-Segmentation
