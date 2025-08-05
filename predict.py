@@ -10,7 +10,8 @@ H, W, _ = img.shape
 
 model = YOLO(best.pt)
 
-results = model(img)
+results = model(Yolo-V8-Instance-Segmentation
+)
 
 for result in results:
     for j, mask in enumerate(result.masks.data):
